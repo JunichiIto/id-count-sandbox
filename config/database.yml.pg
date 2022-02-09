@@ -1,0 +1,16 @@
+development:
+  adapter:  postgresql
+  host:     localhost
+  encoding: unicode
+  database: id_count_sandbox_development
+  pool:     5
+  username:
+  password:
+test:
+  adapter:  postgresql
+  host:     localhost
+  encoding: unicode
+  database: id_count_sandbox_test
+  pool:     5
+  username:
+  password:
